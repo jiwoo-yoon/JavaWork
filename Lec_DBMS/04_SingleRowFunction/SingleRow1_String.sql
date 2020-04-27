@@ -1,0 +1,134 @@
+--INITCAP()함수
+
+--#4101
+SELECT INITCAP('pretty girl')
+FROM dual;
+
+
+--#4102
+SELECT ID, INITCAP(ID) 
+FROM T_STUDENT 
+WHERE DEPTNO1 = 201;
+
+--#4103
+SELECT NAME, ID, UPPER(ID) 대문자, LOWER(ID) 소문자 
+FROM T_STUDENT 
+WHERE DEPTNO1 = 201;
+
+--#4104
+SELECT NAME , ID, LENGTH (ID) 글자수
+FROM T_STUDENT 
+WHERE LENGTH (ID) >= 9;
+
+--#4105
+SELECT name 이름, LENGTH(name) 길이, LENGTHB(name) 바이트
+FROM t_student WHERE deptno1 = 201;
+
+--#4106
+SELECT CONCAT(NAME , POSITION) 교수님명단 
+FROM T_PROFESSOR 
+WHERE DEPTNO = 101;
+
+--SUBSTR()함수 X번부터 Y개까지, 문자열인덱스 1부터시작 
+SELECT SUBSTR('ABCDEF', 2, 3) 
+FROM DUAL;
+
+SELECT SUBSTR('ABCDE', 20, 3) --NULL(에러는 아님)
+FROM DUAL;
+
+SELECT SUBSTR('ABCDE', -2, 2) --맨오른쪽부터 -1 시작 
+FROM DUAL;
+
+--#4107
+SELECT NAME, SUBSTR(JUMIN, 1,6) 
+FROM T_STUDENT 
+WHERE DEPTNO1 = 101;
+
+--#4108
+SELECT  NAME, JUMIN 
+FROM T_STUDENT 
+WHERE SUBSTR(JUMIN, 4,1) = 8;
+
+--#4109
+SELECT NAME, JUMIN 
+FROM T_STUDENT 
+WHERE GRADE = 4 AND SUBSTR(JUMIN , 7, 1) = 2;
+
+--INSTR()함수
+SELECT INSTR('A*B*C*', '*', 1, 1)
+FROM DUAL;
+
+SELECT INSTR('A*B*C*', '*', 1, 2)
+FROM DUAL;
+
+SELECT INSTR('A*B*C*', '*', 3, 2)
+FROM DUAL;
+
+SELECT INSTR('A*B*C*', '*', -4, 1) FROM DUAL; --음수인덱스인 경우엔 검색도 음의 방향으로 진행 <-- 요렇게 
+
+--#4110
+SELECT NAME, TEL, INSTR(TEL, ')', 1, 1) "위치" --1, 1은 디폴트값이기 때문에 지워도 작동
+FROM T_STUDENT 
+WHERE DEPTNO1 = 101
+
+--#4111
+SELECT NAME, TEL, SUBSTR(TEL , 1, INSTR(TEL, ')')-1) 지역번호  
+FROM T_STUDENT 
+WHERE DEPTNO1 = 101
+
+--LTRIM(), RTRIM(), TRIM()
+SELECT LTRIM('슈퍼퍼퍼퍼퍼슈가맨', '슈퍼') LTRIM,
+	   LTRIM('슈퍼슈퍼슈가맨', '퍼') LTRIM,
+	   LTRIM('   슈퍼슈가맨', ' ') LTRIM,
+	   LTRIM('   슈퍼슈가맨') LTRIM, -- 디폴트값으로 ' '공백이 지정되있음
+	   RTRIM('우측 공백 제거     ') RTRIM
+	   TRIM(' 좌우 공백 제거    ') TRIM
+FROM DUAL;
+
+SELECT dname, RTRIM(DNAME, '부') rtrim예제 
+FROM T_DEPT2;
+
+--REPLACE() 함수
+SELECT REPLACE ('슈퍼맨 슈퍼걸', '슈퍼', '파워') 리플레이스
+FROM DUAL; 
+
+SELECT REPLACE ('아버지가 방에 들어간디', ' ', '') 공백제거
+FROM DUAL ;
+
+--#4118
+SELECT NAME, REPLACE(NAME, SUBSTR(NAME, 1, 1), '#') 학생  
+FROM T_STUDENT 
+WHERE DEPTNO1 = 102;
+
+--#4119
+SELECT NAME, REPLACE (NAME, SUBSTR(NAME, 2, 1), '#') 학생
+FROM T_STUDENT 
+WHERE DEPTNO1 = 101;
+
+--#4120
+SELECT NAME, REPLACE(JUMIN , SUBSTR(JUMIN, 7), '*******') 주민번호
+FROM T_STUDENT 
+WHERE DEPTNO1 = 101;
+
+--#4121
+SELECT NAME, TEL, REPLACE(TEL,SUBSTR(TEL , INSTR(TEL, ')') + 1, 3), '###')  전화번호
+FROM T_STUDENT 
+WHERE DEPTNO1 = 102;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

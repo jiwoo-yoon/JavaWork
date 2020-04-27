@@ -1,0 +1,92 @@
+SELECT 1+1 FROM dual;
+SELECT '1'+1 FROM dual; --묵시적자동형변환 오라클에서는 문자->숫자로
+SELECT to_number('1') + 1 FROM dual; -- 이렇게작동하는걸 자동으로 바꿔쥼 위에처럼
+
+--TO_CHAR함수(날짜 -> 문자)
+SELECT 
+	SYSDATE,
+	TO_CHAR(SYSDATE, 'YYYY') 연도4자리,
+	TO_CHAR(SYSDATE, 'RRRR') 연도Y2K버그이후,
+	TO_CHAR(SYSDATE, 'YY') 연도2자리,
+	TO_CHAR(SYSDATE, 'YEAR') 연도영문
+FROM dual;
+
+SELECT 
+	TO_CHAR(SYSDATE, 'DD') 일숫자2자리,
+	TO_CHAR(SYSDATE, 'DDTH') 몇번째날,
+	TO_CHAR(SYSDATE, 'DAY') 요일,
+	TO_CHAR(SYSDATE, 'Dy') 요일앞자리
+FROM DUAL;
+
+SELECT 
+	TO_CHAR(SYSDATE, 'MM') 월2자리,
+	TO_CHAR(SYSDATE, 'MON') 월3자리,  -- 7월
+	TO_CHAR(SYSDATE, 'MONTH')  월전체,  -- 7월
+	TO_CHAR(SYSDATE, 'MON', 'NLS_DATE_LANGUAGE=ENGLISH') 월영문3자리,  -- JUL
+	TO_CHAR(SYSDATE, 'MONTH', 'NLS_DATE_LANGUAGE=ENGLISH')  "월영문전체(대)", -- JULY
+	TO_CHAR(SYSDATE, 'month', 'NLS_DATE_LANGUAGE=ENGLISH')  "월영문전체(소)",  -- july
+	TO_CHAR(SYSDATE, 'Month', 'NLS_DATE_LANGUAGE=ENGLISH')  "월영문전체(첫글자대)" -- July
+FROM dual;
+
+SELECT 
+	TO_CHAR(SYSDATE, 'HH24') 시24hr,
+	TO_CHAR(SYSDATE, 'HH')  시12hr,
+	TO_CHAR(SYSDATE, 'MI') 분,
+	TO_CHAR(SYSDATE, 'SS') 초,
+	TO_CHAR(SYSDATE, 'HH:MI:SS')
+FROM dual;
+
+--#4301
+SELECT SYSDATE,  TO_CHAR(SYSDATE, 'YYYY-MM-DD HH:MI:SS') 날짜
+FROM DUAL;
+
+--한글로 년월일 시분초 붙이기
+SELECT SYSDATE, TO_CHAR(SYSDATE, 'YYYY"년"MM"월"DD"일" HH"시"MI"분"SS"초"') 날짜 
+FROM DUAL;
+
+--#4302
+SELECT NAME, TO_CHAR(BIRTHDAY, 'YYYY-MM-DD') 생일
+FROM T_STUDENT
+WHERE TO_CHAR(BIRTHDAY, 'MM') = '03';
+
+-- TO_CHAR : 대소문자 지정예 그냥 읽어보기
+SELECT
+SYSDATE,
+TO_CHAR(SYSDATE, 'Dy Month DD, YYYY', 'NLS_DATE_LANGUAGE=ENGLISH') AS A1,
+TO_CHAR(SYSDATE, 'dy month dd, YYYY', 'NLS_DATE_LANGUAGE=ENGLISH') AS A2,
+TO_CHAR(SYSDATE, 'DY MONTH DD, YYYY', 'NLS_DATE_LANGUAGE=ENGLISH') AS A3
+FROM DUAL;
+
+--TO_CHAR 함수(숫자->문자)
+SELECT 
+	1234,
+	TO_CHAR(1234, '99999'), --9하나당 한자리에 맞춰서 문자열 변환
+	TO_CHAR(1234, '099999'), --빈자리가 0으로 채워짐
+	TO_CHAR(1234, '$9999'), --빈자리가 $로 채워짐
+	TO_CHAR(1234.1234, '9999.99'), --소숫점이하 2자리, 반올림도가능
+	TO_CHAR(1234, '99,999') --천단위의 구분기호, 얘는 자릿수맞춰서 하기
+FROM DUAL;
+
+--#4303
+SELECT NAME, TO_CHAR(PAY*12 + NVL(BONUS, 0), '99,999') 연봉
+FROM T_PROFESSOR 
+WHERE DEPTNO = 101;
+
+--TO_NUMBER() 함수 : 숫자로 변환
+SELECT TO_NUMBER('123.44') 
+FROM DUAL;
+
+--TO_DATE()	함수 : 문자 -> 날짜로 변환
+SELECT 
+	TO_DATE('2020-04-08', 'YYYY-MM-DD') 날짜로변환 
+FROM DUAL;
+
+--#4304
+SELECT NAME, TO_CHAR(HIREDATE, 'YYYY-MM-DD') 입사일, 
+	TO_CHAR(PAY*12, '99,999') 연봉,
+	TO_CHAR((PAY*12)*1.1, '99,999') 인상후
+FROM T_PROFESSOR
+WHERE HIREDATE < '2000.01.01'; --TO_CHAR(HIREDATE, 'YYYY') < '2000' 요렇게도
+
+
+
