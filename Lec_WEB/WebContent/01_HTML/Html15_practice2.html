@@ -2,9 +2,235 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
+<style>
+
+/* MAIN */
+.toolbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.calendar__week,
+.calendar__header {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);  
+}
+.calendar__week {
+  grid-auto-rows: 100px;
+  text-align: right;
+}
+
+.calendar__header {
+  grid-auto-rows: 50px;
+  align-items: center;
+  text-align: center;
+}
+
+.calendar__day {
+  padding: 16px;
+}
+
+body {
+  font-family: Montserrat;
+  font-weight: 100;
+  color: #A8B2B9;
+}
+main {
+  background-color: #FCFBFC;
+}
+.calendar {
+  background-color: white;
+  border: 1px solid #e1e1e1;
+}
+
+.calendar__header > div {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.calendar__day {
+  border-right: 1px solid #e1e1e1;
+  border-top: 1px solid #e1e1e1;
+}
+
+.calendar__day:last-child {
+  border-right: 0;
+}
+
+    table{
+        border-collapse:collapse;
+        width: 100%;
+        border : 0;
+    }
+    
+table, th, td{
+        border-bottom: 1px solid black;
+    }
+#st1{
+    font-size: x-large;
+    text-align: center;
+}
+#ft1{
+    background-color: lightblue;
+    text-align: center;
+}
+
+</style>
 <title>캘린더 폼 작성</title>
 </head>
 <body>
+    <table>
+        <tr>
+            <td>정책</td>
+            <td>미리보는</td>
+            <td>마감임박</td>
+            <td>접수중인</td>
+        </tr>
+    </table>
+    <div class="flex">
+        <main>
+          <div class="toolbar">
+            <div class="current-month">2015-06-17</div>
+          </div>
+          <div class="calendar">
+            <div class="art">
+                <input type="radio" value="전체" checked>전체
+                <input type="radio" value="창업,벤쳐">창업,벤쳐
+                <input type="radio" value="소상공인">소상공인
+                <input type="radio" value="판로,수출">판로,수출
+                <input type="radio" value="R&D">R&D
+                <input type="radio" value="금융,세제">금융,세제
+                <input type="radio" value="인력">인력
+            </div>
+            <div class="calendar__header">
+              <div>mon</div>
+              <div>tue</div>
+              <div>wed</div>
+              <div>thu</div>
+              <div>fri</div>
+              <div>sat</div>
+              <div>sun</div>
+            </div>
+            <div class="calendar__week">
+              <div class="calendar__day day">1</div>
+              <div class="calendar__day day">2</div>
+              <div class="calendar__day day">3</div>
+              <div class="calendar__day day">4</div>
+              <div class="calendar__day day">5</div>
+              <div class="calendar__day day" style="background-color: aqua;">6</div>
+              <div class="calendar__day day">7</div>
+            </div>
+            <div class="calendar__week">
+              <div class="calendar__day day">8</div>
+              <div class="calendar__day day">9</div>
+              <div class="calendar__day day">10</div>
+              <div class="calendar__day day">11</div>
+              <div class="calendar__day day">12</div>
+              <div class="calendar__day day">13</div>
+              <div class="calendar__day day">14</div>        
+            </div>
+            <div class="calendar__week">
+              <div class="calendar__day day">15</div>
+              <div class="calendar__day day">16</div>
+              <div class="calendar__day day">17</div>
+              <div class="calendar__day day">18</div>
+              <div class="calendar__day day">19</div>
+              <div class="calendar__day day">20</div>
+              <div class="calendar__day day">21</div>    
+            </div>
+            <div class="calendar__week">
+              <div class="calendar__day day">22</div>
+              <div class="calendar__day day">23</div>
+              <div class="calendar__day day">24</div>
+              <div class="calendar__day day">25</div>
+              <div class="calendar__day day">26</div> 
+              <div class="calendar__day day">27</div> 
+              <div class="calendar__day day">28</div> 
+            </div>
+            <div class="calendar__week">
+              <div class="calendar__day day">29</div>
+              <div class="calendar__day day">30</div>
+              <div class="calendar__day day">31</div>
+              <div class="calendar__day day">1</div>
+              <div class="calendar__day day">2</div>
+              <div class="calendar__day day">3</div>
+              <div class="calendar__day day">4</div>
+            </div>
+          </div>
+        </main>
+        
+      </div>
+      <br>
+      <br>
+      <br>
 
+      <h4>2015년 6월 7일, 전체 검색결과, 진행중인 사업은 총 614건 입니다</h4>
+      <table>
+          <tr>
+              <th>번호</th>
+              <th>지원사업명</th>
+              <th>주관부처</th>
+              <th>신청기간</th>
+              <th>조회</th>
+          </tr>
+          <tr>
+              <th>1</th>
+              <th>2015년</th>
+              <th>중소기업청</th>
+              <th>2015~2015</th>
+              <th>99</th>
+          </tr>
+          <tr>
+              <th>10</th>
+              <th>2016년</th>
+              <th>중소기업청</th>
+              <th>2015~2015</th>
+              <th>99</th>
+          </tr>
+          <tr>
+              <th>111</th>
+              <th>2017년</th>
+              <th>중소기업청</th>
+              <th>2015~2015</th>
+              <th>99</th>
+          </tr>
+          <tr>
+              <th>211</th>
+              <th>2018년</th>
+              <th>중소기업청</th>
+              <th>2015~2015</th>
+              <th>99</th>
+          </tr>
+      </table>
+      <br>
+      <section id="st1">
+      <button>&lt;&lt;</button>
+      <button>&lt;</button>
+      <a href="Html17_inside2.html" target="iframe_a">2</a>
+      <a href="Html17_inside2.html" target="iframe_a">2</a>
+      <a href="Html17_inside3.html" target="iframe_a">3</a>
+      <a href="Html17_inside2.html" target="iframe_a">2</a>
+      <a href="Html17_inside2.html" target="iframe_a">2</a>
+      <button>&gt;</button>
+      <button>&gt;&gt;</button>
+    </section>
+      <br>
+
+      <footer id="ft1">
+          <div>
+            <select name="select" class="s1">
+                <option value="키워드">키워드</option>
+                <option value="saab">saab</option>
+                <option value="fiat">fiat</option>
+                <option value="audi">audi</option>
+            </select>
+            <input type="text">
+            <button>검색</button>
+          </div>
+      </footer>
+      
 </body>
 </html>
