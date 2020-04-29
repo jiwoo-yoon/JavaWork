@@ -1,26 +1,147 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
+    <style>
+    #info{
+        height: 250px;
+        width: 1100px;
+        margin-top: 20px;
+        margin-left: 50px;
+        padding: 40px;
+        background-color: rgb(231, 234, 238);
+    }
+    #button{
+        width: 7.5em;
+        font-size: 14px;
+    }
+    span{
+        padding: 20px;
+    }
+    #text{
+        height: 15px;
+
+    }
+    #postinfo{
+        height: 360px;
+        width: 1100px;
+        margin-top: 20px;
+        margin-left: 50px;
+        padding: 40px;
+        background-color: rgb(231, 234, 238);
+
+    }
+    #payinfo{
+        height: 200px;
+        width: 1100px;
+        margin-top: 20px;
+        margin-left: 50px;
+        padding: 40px;
+        background-color: rgb(231, 234, 238);
+
+    }
+
+
+    </style>
 <meta charset="UTF-8">
-<style>
-    
-</style>
 <title>주문 폼 작성</title>
 </head>
 <body>
-<h1>주문자 정보 입력</h1>
-<section class="c1">
-    <article class="a1">
-        주문자정보 
-        비회원으로 상품구매시 반드시 본인인증을 하셔야 합니다
-        <input type="button" value="휴대폰인증">
-        <input type="button" value="아이핀인증">
-    </article>
-    <article class="a2">
-        주소
-        <input type="text">
-    </article>
-</section>
+    <div style="font-weight: 900; font-size: larger; padding:30px; margin-left: 50px;"> 주문자 정보 입력 </div>
+    <div id="info">
+        <span style="font-weight: 800;">주문자 정보</span> <span> 비회원으로 상품구매 시 반드시 본인인증을 하셔야 합니다. 
+            <input id="button" type="button" value="휴대폰인증">
+            <input id="button" type="button" value="아이핀인증"></span>
+            <br><br>
+            <span style="font-weight: 800;">주소 </span>
+            <span> <input id="text" type="text" style="width: 100px; margin-left: 36px; margin-right: 10px;" readonly> <input id="button" type="button" value="주소찾기" >  </span>
+            <br><br>
+            <input id="text" type="text" style="width: 600px; margin-left: 135px; margin-right: 10px;" readonly>
+            <br><br>
+            <input id="text" type="text" style="width: 600px; margin-left: 135px; margin-right: 10px;">
+            <br><br>
+            <span style="font-weight: 800;">휴대전화</span> 
+            <span><select style="margin-left:5px; width:100px; text-align: center; "><option value="010">010</option>
+                <option value="011">011</option>
+                </select> - <input id="text" type="text" > - <input id="text" type="text" margin-right: 15px;></span>
+                <span><input type="checkbox" style="margin-right: 2px;">SMS수신동의</span> 
+                <br><br>
+
+                <span style="font-weight: 800;">이메일</span>
+                <span><input id="text" type="text" style="margin-left: 21px;" > @ <input id="text" type="text" ></span>
+                <span> <select><option style="font-weight: 800;">직접입력</option></select></span>
+        </div>
+        <li style="margin-left: 4%;">통신판매중계자로서 통신판매의 당사자가 아니며,</li>
+
+    <br><br>
+    <hr>
+    <br><br>
+    <div style="font-weight: 900; font-size: larger; padding:30px; margin-left: 50px;"> 배송지 정보 입력 </div>
+    <div id="postinfo">
+        
+        <span style="font-weight: 800;">배송지선택</span> <span><input type="button" value="주문지 정보와 동일" style="font-size: 15px;"></span>
+        <hr style="margin-top: 20px;">
+        <br>
+        <span style="font-weight: 800;">받으시는 분</span> <span><input id="text" type="text" style="width: 100px; margin-left: -12px; "></span>
+            <br><br>
+            <span style="font-weight: 800;">주소 </span>
+            <span> <input id="text" type="text" style="width: 100px; margin-left: 40px; margin-right: 10px;" readonly> <input id="button" type="button" value="주소찾기" style="font-size: 14px;"><input type="checkbox" style="margin-left: 10px;"> 배송지 목록에 추가  </span>
+            <br><br>
+            <input id="text" type="text" style="width: 600px; margin-left: 138px; margin-right: 10px;" readonly>
+            <br><br>
+            <input id="text" type="text" style="width: 600px; margin-left: 138px; margin-right: 10px;">
+            <br><br>
+            <span style="font-weight: 800;">휴대전화</span> 
+            <span><select style="margin-left:9px; width:100px; text-align: center; "><option value="010">010</option>
+                <option value="011">011</option>
+                </select> - <input id="text" type="text" > - <input id="text" type="text" margin-right: 15px;></span>
+                <span><input type="checkbox" style="margin-left: -30px;">안심번호 사용(무료)</span> 
+                <span><input type="checkbox" style="margin-right: 2px;">집전화 추가 입력</span> 
+                
+
+                <br><br><br>
+                <span style="font-weight: 800; margin-left: -30px;">배송시요구사항</span> 
+                <span><input type="text" style="width: 600px; margin-left: -10px; "></span>
+                <span style="color: gray;"> (0자/50자)</span>
+                <li style="color: blue;">판매자와 연락하여 배송을 확인해주시기 바랍니다</li>
+        </div>
+
+        <br><br>
+        <hr>
+        <br><br>
+        <div style="font-weight: 900; font-size: larger; padding:30px; margin-left: 50px;"> 결제 정보 입력 </div>
+
+        <div id="payinfo">
+        
+            <span style="font-weight: 800;">신용카드</span> <span><input type="radio" style="font-size: 30px;">신용카드(일반)</span>
+            <span><input type="radio" style="font-size: 30px;">신용카드(법인)</span>
+            <span><input type="radio" style="font-size: 30px;">해외발급카드</span>
+            <br><br>
+            <span style="font-weight: 800;">현금결제</span> <span><input type="radio" style="font-size: 30px;">무통장입금</span>
+            <span><input type="radio" style="font-size: 30px; margin-left: 32px;">실시간 계좌이체</span>
+
+            <hr style="margin-top: 20px;">
+            <br>
+            <span style="font-weight: 800;">카드선택</span> <span>
+                <span><select style="margin-left:9px; width:100px; text-align: center; ">
+                    <option>선택하세요</option>
+                <option>비씨카드</option>
+                </select></span>
+                <br><br>
+                <span style="font-weight: 800;">할부방식 </span>
+                <span> <span><select style="margin-left:9px; width:100px; text-align: center; ">
+                    <option>일시불</option>
+                <option>3개월 할부</option>
+                </select></span>
+                <br><br>
+                <span style="font-weight: 800;">결제안내</span> 
+                <span style="margin-left: 30px;"> 
+                    <input type="button" value=" 간편결제안내 " style="font-size: 14px; border-color: red;">
+                    <input type="button" value=" 공인인증안내 " style="font-size: 14px;">
+                    <input type="button" value=" 안전결제안내 " style="font-size: 14px;">
+                    <input type="button" value=" 안심클릭안내 " style="font-size: 14px;">
+                </span>
+            </div>
+
 
 </body>
 </html>

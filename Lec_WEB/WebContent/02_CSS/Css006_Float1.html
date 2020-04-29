@@ -9,16 +9,20 @@ img {
 	margin-left:15px;  /* 왼쪽 바깥 여백 */
 }
 img#f1 {
-	/* TODO */
+	float: none;
 }
 img#f2 {
-	/* TODO */
+	float: right;
+	margin-right: 100px;
 }
 img#f3 {
-	/* TODO */
+	float: left;
 }
 
 /* TODO : clear*/
+div#clear{
+	clear: left; /*더이상 float:left의 영향을 x*/
+}
 
 </style>
 </head>
@@ -62,6 +66,9 @@ img#f3 {
 </p>
 
 <!-- TODO : clear -->
+<div id="clear">
+
+</div>
 
 <hr> <!-- hr의 위치 주목! -->
 

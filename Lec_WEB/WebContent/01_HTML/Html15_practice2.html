@@ -6,9 +6,9 @@
 
 /* MAIN */
 .toolbar{
-  display: flex;
+  text-align: center;
+  font-weight: bold;
   justify-content: space-between;
-  align-items: center;
   margin-bottom: 24px;
 }
 
@@ -35,7 +35,7 @@
 body {
   font-family: Montserrat;
   font-weight: 100;
-  color: #A8B2B9;
+  color: rgb(18, 24, 27);
 }
 main {
   background-color: #FCFBFC;
@@ -59,41 +59,51 @@ main {
 .calendar__day:last-child {
   border-right: 0;
 }
+.calendar .art{
+  font-size: x-large;
+  color: black;
+}
 
-    table{
+table{
         border-collapse:collapse;
         width: 100%;
         border : 0;
     }
     
 table, th, td{
+  padding-left: 7%; 
         border-bottom: 1px solid black;
+        padding-bottom: 0.8%;
+        margin: 1%;
+        
     }
 #st1{
     font-size: x-large;
     text-align: center;
+    margin: 1%;
 }
 #ft1{
     background-color: lightblue;
     text-align: center;
+    padding: 1.4%;
 }
 
 </style>
 <title>캘린더 폼 작성</title>
 </head>
-<body>
-    <table>
-        <tr>
-            <td>정책</td>
-            <td>미리보는</td>
-            <td>마감임박</td>
-            <td>접수중인</td>
-        </tr>
-    </table>
+<table style="font-size: x-large; color: black;">
+  <tr>
+    <td>정책</td>
+    <td>미리보는</td>
+    <td>마감임박</td>
+    <td>접수중인</td>
+  </tr>
+</table>
+  <body>
     <div class="flex">
         <main>
           <div class="toolbar">
-            <div class="current-month">2015-06-17</div>
+            <div class="current-month" style="color: blue; font-size: x-large;">2015-06-17</div>
           </div>
           <div class="calendar">
             <div class="art">
@@ -167,9 +177,9 @@ table, th, td{
       <br>
       <br>
 
-      <h4>2015년 6월 7일, 전체 검색결과, 진행중인 사업은 총 614건 입니다</h4>
+      <li style="font-weight: 500;">2015년 6월 7일, 전체 검색결과, 진행중인 사업은 총 614건 입니다</li>
       <table>
-          <tr>
+          <tr style="background-color: rgb(171, 171, 194);">
               <th>번호</th>
               <th>지원사업명</th>
               <th>주관부처</th>
@@ -209,11 +219,11 @@ table, th, td{
       <section id="st1">
       <button>&lt;&lt;</button>
       <button>&lt;</button>
-      <a href="Html17_inside2.html" target="iframe_a">2</a>
+      <a href="Html17_inside2.html" target="iframe_a">1</a>
       <a href="Html17_inside2.html" target="iframe_a">2</a>
       <a href="Html17_inside3.html" target="iframe_a">3</a>
-      <a href="Html17_inside2.html" target="iframe_a">2</a>
-      <a href="Html17_inside2.html" target="iframe_a">2</a>
+      <a href="Html17_inside2.html" target="iframe_a">4</a>
+      <a href="Html17_inside2.html" target="iframe_a">5</a>
       <button>&gt;</button>
       <button>&gt;&gt;</button>
     </section>
@@ -227,8 +237,8 @@ table, th, td{
                 <option value="fiat">fiat</option>
                 <option value="audi">audi</option>
             </select>
-            <input type="text">
-            <button>검색</button>
+            <input type="text" style="margin-left: 20px; width: 30%;">
+            <button style="margin-left: 20px;">검색</button>
           </div>
       </footer>
       
