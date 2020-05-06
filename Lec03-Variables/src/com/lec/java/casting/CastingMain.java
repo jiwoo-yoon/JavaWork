@@ -26,7 +26,7 @@ public class CastingMain {
 		// byte num3 = num2; // 자동형변환 불가
 		byte num3 = (byte) num2; // 명시적 형변환!
 
-		System.out.println("num3 : " + num3);
+		System.out.println("num3 : " + num3); 
 
 		// 명시적 형변환시 주의점! --> 데이터 손실 발생 주의!
 		byte num5 = (byte) 513;
