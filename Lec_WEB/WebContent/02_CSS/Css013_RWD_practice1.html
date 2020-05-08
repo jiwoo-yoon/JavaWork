@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+[class*="col-"]{
+	float: left;
+    padding: 15px;
+    width: 100%;
+}
+*{
+    box-sizing: border-box;
+    height: 50%;
+    font-size: 25px;
+}
+.b{
+    width: 33.33%;
+    float: left;
+    display: block;
+}
+
+/* 2: 600px  이상 : tablet */
+@media screen and (min-width: 600px){
+    .col-m-1 {width: 8.33%; }
+    .col-m-2 {width: 16.66%; }  
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+    #c{height: 300px;}
+    #d{height: 300px;}
+    #e{height: 150px;}
+    #f{height: 150px;}
+    }
+
+/* 3: 768px 이상 : pc */
+@media screen and (min-width: 768px){
+    .col-1 {width: 8.33%; } 
+    .col-2 {width: 16.66%; } 
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    #c{height: 315px;}
+    #d{height: 315px;}
+    #e{height: 100px;}
+    #f{height: 100px;}
+
+}
+@media screen and (max-width: 600px) {
+    .a{
+        display: none;
+    }
+}
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <div class="a col-m-2 col-4" style="background-color: cadetblue;">A</div>
+     <div class="col-m-10 col-8" style="background-color: purple;">B</div>
+     <div id="c" class="col-m-2" style="background-color: cyan;">C</div>
+     <div id="d" class="col-m-8 col-6" style="border: 1px solid black;">D</div>
+     <div id="e" class="b col-m-2 col-4" style="background-color: cadetblue;">E</div>
+     <div id="f" class="b col-m-2 col-4" style="background-color: cadetblue;">F</div>
+     <div class="b col-m-3 col-4" style="background-color: cadetblue;">G</div>
+     <div class="c col-m-9 col-12" style="border: 1px solid black;">H</div>
+</body>
+</html>

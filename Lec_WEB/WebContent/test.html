@@ -1,20 +1,326 @@
 <!DOCTYPE html>
-<html lang="ko">
-    <head>
-        <meta charset="UTF-8"/>
-        <body>
-            <h1>ㅎㅎ</h1>
-        </body>
-    </head>
-</html>
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Practice</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+
+        #headA{
+            display: none;
+        }
+
+        #headB {
+            background-color: burlywood;
+            width: 100%;
+            padding: 20px;
+            font-size: x-large;
+            text-align: center;
+            border: 4px solid black;
+            margin-bottom: 10px;
+        }
+
+        #bodyC {
+            background-color: burlywood;
+            width: 100%;
+            padding: 20px;
+            font-size: x-large;
+            text-align: center;
+            border: 4px solid black;
+            float: left;
+            margin-bottom: 10px;
+        }
+
+        #bodyD {
+            background-color: burlywood;
+            width: 100%;
+            padding: 150px;
+            font-size: xx-large;
+            text-align: center;
+            border: 4px solid black;
+            float: left;
+            margin-bottom: 10px;
+        }
+
+        #bodyE {
+            width: 32%;
+            background-color: burlywood;
+            padding: 20px;
+            font-size: x-large;
+            text-align: center;
+            border: 4px solid black;
+            float: left;
+            margin-right: 2%;
+        }
+
+        #bodyF {
+            width: 32%;
+            background-color: burlywood;
+            padding: 20px;
+            font-size: x-large;
+            text-align: center;
+            border: 4px solid black;
+            float: left;
+            margin-right: 2%;
+
+        }
+
+        #footG {
+            width: 32%;
+            background-color: burlywood;
+            padding: 20px;
+            font-size: x-large;
+            text-align: center;
+            border: 4px solid black;
+            float: left;
+
+        }
+
+        #footH {
+            margin-top: 10px;
+            width: 100%;
+            background-color: burlywood;
+            padding: 20px;
+            font-size: x-large;
+            text-align: center;
+            border: 4px solid black;
+            float: left;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        @media screen and (min-width: 600px) {
+            #headA {
+                display: inline;
+                width: 16%;
+                background-color: burlywood;
+                padding: 20px;
+                font-size: x-large;
+                text-align: center;
+                border: 4px solid black;
+                float: left;
+            }
+
+            #headB {
+            background-color: burlywood;
+            width: 83%;
+            padding: 20px;
+            font-size: x-large;
+            text-align: center;
+            border: 4px solid black;
+            margin-bottom: 10px;
+            margin-left: 1%;
+            float: left;
+        }
+
+        #bodyC {
+            background-color: burlywood;
+            width: 16%;
+            padding: 20px;
+            height: 345px;
+            font-size: x-large;
+            text-align: center;
+            border: 4px solid black;
+            float: left;
+            margin-bottom: 0px;
+            
+        }
+
+        #bodyD {
+            background-color: burlywood;
+            width: 66%;
+            padding: 150px;
+            font-size: xx-large;
+            text-align: center;
+            border: 4px solid black;
+            float: left;
+            margin-left: 1%;
+            margin-bottom: 0px;
+        }
+
+        #bodyE {
+            width: 16%;
+            background-color: burlywood;
+            padding: 20px;
+            font-size: x-large;
+            text-align: center;
+            border: 4px solid black;
+            float: left;
+            height: 170px;
+            margin-left: 1%;
+            margin-bottom: 0px;
+            margin-right: 0px;
+        }
+
+        #bodyF {
+            width: 16%;
+            background-color: burlywood;
+            padding: 20px;
+            height: 170px;
+            font-size: x-large;
+            text-align: center;
+            border: 4px solid black;
+            float: left;
+            margin-left: 1%;
+            margin-top: 5px;
+            margin-bottom: 0px;
+            margin-right: 0px;
+
+        }
+
+        #footG {
+            width: 25%;
+            background-color: burlywood;
+            padding: 20px;
+            font-size: x-large;
+            text-align: center;
+            border: 4px solid black;
+            float: left;
+            margin-top: 10px;
+
+        }
+
+        #footH {
+            width: 74%;
+            background-color: burlywood;
+            padding: 20px;
+            font-size: x-large;
+            text-align: center;
+            border: 4px solid black;
+            float: left;
+            margin-left: 1%;
+        }
+
+        }
+
+        @media screen and (min-width: 768px) {
+            #headA {
+                display: inline;
+                width: 33%;
+                background-color: burlywood;
+                padding: 20px;
+                font-size: x-large;
+                text-align: center;
+                border: 4px solid black;
+                float: left;
+            }
+
+            #headB {
+            background-color: burlywood;
+            width: 66%;
+            padding: 20px;
+            font-size: x-large;
+            text-align: center;
+            border: 4px solid black;
+            margin-bottom: 10px;
+            margin-left: 1%;
+        }
+
+        #bodyC {
+            background-color: burlywood;
+            width: 16%;
+            padding: 20px;
+            font-size: x-large;
+            text-align: center;
+            border: 4px solid black;
+            float: left;
+            margin-bottom: 10px;
+        }
+
+        #bodyD {
+            background-color: burlywood;
+            width: 50%;
+            padding: 150px;
+            font-size: xx-large;
+            text-align: center;
+            border: 4px solid black;
+            float: left;
+            margin-bottom: 10px;
+            margin-left: 1%;
+        }
+
+        #bodyE {
+            width: 32%;
+            height: 112px;
+            background-color: burlywood;
+            padding: 20px;
+            font-size: x-large;
+            text-align: center;
+            border: 4px solid black;
+            float: left;
+            margin-left: 1%;
+        }
+
+        #bodyF {
+            width: 32%;
+            height: 112px;
+            background-color: burlywood;
+            padding: 20px;
+            font-size: x-large;
+            text-align: center;
+            border: 4px solid black;
+            float: left;
+            margin-left: 1%;
+
+        }
+
+        #footG {
+            width: 32%;
+            height: 112px;
+            background-color: burlywood;
+            padding: 20px;
+            font-size: x-large;
+            text-align: center;
+            border: 4px solid black;
+            float: left;
+            margin-left: 1%;
+            margin-top: 5px;
+        }
+
+        #footH {
+            width: 100%;
+            margin-left: 0px;
+            background-color: burlywood;
+            padding: 20px;
+            font-size: x-large;
+            text-align: center;
+            border: 4px solid black;
+            float: left;
+            margin-top: -2px;
+        }
+        }
+    </style>
+
 </head>
+
 <body>
+
+    <div id="headA">HeadA</div>
+    <div id="headB">HeadB</div>
+
+    <div class="clear"></div>
+    <div id="bodyC">BodyC</div>
+    <div id="bodyD">BodyD</div>
+
+    <div id="bodyE">BodyE</div>
+    <div id="bodyF">BodyF</div>
+
+    <div id="footG">FootG</div>
+
     
+    <div id="footH">FootH</div>
+
+
+
+
 </body>
+
 </html>
