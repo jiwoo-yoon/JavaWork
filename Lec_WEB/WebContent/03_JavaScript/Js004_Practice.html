@@ -21,9 +21,27 @@ table{
 </head>
 <body>
 <script>
-
-// TODO
-
+var n = Math.floor(Math.random()*10) + 1;
+document.write("n: " + n + "<br>")
+document.write("<ol>\n")
+for(i = 0; i < n; i++){
+	document.write("<li>안녕하세요 " + (i+1) + "번째입니다.")
+}
+document.write("</ol>\n")
+</script>
+<script>
+	var row = Math.floor(Math.random()*10) + 1;
+	var col = Math.floor(Math.random()*10) + 1;
+	document.write(`row = [${row}]`+` col = [${col}]`)
+	document.write("<table>\n")
+		for(i = 1; i<=row; i++){
+			document.write("<tr>")
+				for(j = 1; j<=col; j++){
+					document.write("<td>" + i + "행" + j + "열" + "</td>\n")
+				}
+				document.write("</tr>")	
+			}
+	document.write("</table>\n")
 </script>
 
 </body>

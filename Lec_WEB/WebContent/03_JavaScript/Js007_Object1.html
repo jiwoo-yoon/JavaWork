@@ -12,6 +12,46 @@
 <p id="demo3"></p>
 
 <script>
+x = 10;    // window 객체의 property x
+
+document.write('x = ' + x + "<br>");
+
+delete x;
+
+//document.write('x = ' + x);  // 에러
+
+x = 200;
+
+function myFunc(){
+	var a = 20;  // var 사용하면 지역변수
+	b = 30;  // var 사용하지 않으면 window 객체의 property
+	document.write('a = ' + a + "<br>");
+	document.write('b = ' + b + "<br>");
+	document.write('x = ' + x + "<br>");
+}
+
+myFunc();
+
+// 함수 바깥에서 함수 안에서 선언된 변수 a 사용 불가
+// document.write('a = ' + a + "<br>");  // 에러
+
+document.write('b = ' + b + "<br>");
+document.write('window.b = ' + window.b + "<br>");
+document.write('window.x = ' + window.x + "<br>");
+
+//window.alert('hello');
+//window.confirm('확인?');
+
+var p1 = {
+	x : 1000
+	, showInfo : function(){
+		var x = 4000;
+
+		document.write(x + " " + this.x + " " + window.x + "<br>");
+	}
+};
+p1.showInfo();  // 3가지 x 값 출력
+
 // 방법1 : object 타입 변수 선언
 // TODO
 

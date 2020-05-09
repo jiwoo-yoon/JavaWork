@@ -69,7 +69,7 @@
 	 
 	 if(frm['firstname'].value.trim() == ""){
 		 alert("First Name 은 필수 입니다");
-		 //return false;   // onsubmit 에 false 를 리턴하면 submit 안된다
+		 r//eturn false;   // onsubmit 에 false 를 리턴하면 submit 안된다
 		 
 		 frm['firstname'].focus()  // return false 하기 전에 커서 위치 시키면 좋다
 		 return false;
@@ -95,12 +95,24 @@
 <hr> <!-- ----------------------------------------------------------------- -->
 <h4>form3 - 숫자검증</h4>
 <script>
+function chkSubmit3(){
+	var frm = document.forms.form3;
+	var age = frm.age.value;
 
-// TODO
+	// isNaN() : numver 타입이면 false, number 이면 true
+	if(isNaN(age) || age < 1 || age > 130){
+		alert(age + "는 유효한 값이 아닙니다\n1~130 사이 숫자 입력");
+		frm.age.focus();
+
+		return false; // submit 안함
+	}
+
+	return true; // submit
+}
 
 </script>
 <form name="form3" action="https://www.w3schools.com/action_page.php"
-	method="get"> <!-- TODO : onsubmit -->
+	method="get" onsubmit="return chkSubmit3()"> <!-- TODO : onsubmit -->
 	나이 (1~130): <input type="text" name="age">
 	<br><br>
 	<input type="submit" value="제출">
@@ -124,7 +136,23 @@
 <h4>form5 - submit()</h4>
 <!-- 일반 JS 코드에서도 특정 form을 submit 시킬수 있다. -->
 <script>
-// TODO
+function chkSubmit5(){
+	var frm = document.forms['form5'];
+	if(frm['firstname'].value.trim() == ""){
+		alert("First Name 은 필수");
+		frm["firstname"].focus();
+		return;
+	}
+
+	//frm.submit(); //form 객체를 submit 수행
+
+	// confirm() 함수 :  확인 / 최소 선택에 따라 true, false 리턴
+	var a = confirm("제출하시겠습니까?");
+
+	if(a){
+		frm.submit();
+	}
+}
 </script>
 <form name="form5" action="https://www.w3schools.com/action_page.php" method="get">
   First name:
@@ -135,7 +163,7 @@
   <br><br>
 </form>
 <!--  TODO -->
-<button>제출</button>  <!-- form 바깥에 있다! --> 
+<button onclick="chkSubmit5();">제출</button>  <!-- form 바깥에 있다! -->
 
 
 <hr> <!-- ----------------------------------------------------------------- -->
@@ -148,11 +176,33 @@ var urlPat = /^(?:(?:(?:https?|ftp):)?\/\/)(?:\S+(?::\S*)?@)?(?:(?!(?:10|127)(?:
 // email 패턴에 대한 정규표현식
 var emailPat = /^[A-Za-z0-9_\.\-]+@[A-Za-z0-9\-]+\.[A-Za-z0-9\-]+/;
 
-// TODO
+function chkSubmit6(){
+	var frm = document.forms.form6;
+
+	var url = frm.url.value.trim();
+	var email = frm.email.value.trim();
+
+	document.getElementById("urlwarn").innerHTML = "";
+	document.getElementById("emailwarn").innerHTML = "";
+
+	// 정규표현식 객체의 text() : 패턴매칭 여부
+	if(!urlPat.test(url)){
+		document.getElementById("urlwarn").innerHTML = "유효하지 않은 url";
+		frm.url.focus();
+		return false;
+	}
+	if(!emailPat.test(email)){
+		document.getElementById("emailwarn").innerHTML = "잘못된 email 입니다"
+		frm.email.focus();
+		return false;
+	}
+
+	return true;
+}
 
 </script>
 <form name="form6" action="https://www.w3schools.com/action_page.php" method="get"
-	> <!--  TOOD : onsubmit -->
+	onsubmit="return chkSubmit6()"> <!--  TOOD : onsubmit -->
 	
   url:
   <input type="text" name="url"><span id="urlwarn" class="important"></span>
@@ -164,28 +214,6 @@ var emailPat = /^[A-Za-z0-9_\.\-]+@[A-Za-z0-9\-]+\.[A-Za-z0-9\-]+/;
   <input type="submit" value="제출">
 </form>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
