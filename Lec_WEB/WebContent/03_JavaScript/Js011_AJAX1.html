@@ -18,7 +18,7 @@
 	3. XMLHttpRequest object 를 사용하여 서버에 request를 보내고
 	  DOM 을 사용하여 화면에 업데이트 한다.
 	
-	4. 일본어로:  アジャックス
+	4. 일본어로:  アジャックス 
 
 	 
 	■ AJAX 장점!
@@ -59,8 +59,15 @@
 <script>
 var infoTxt = "https://www.w3schools.com/js/ajax_info.txt";
 function loadDoc() {
-
-	// TODO
+	var xhttp = new XMLHttpRequest(); // XHR
+	xhttp.onreadystatechange = function(){
+		if(this.readyState == 4 && this.status == 200){
+			document.getElementById("demo").innerHTML = 
+				this.responseText;
+		}
+	};
+	xhttp.open("GET", infoTxt, true);
+	xhttp.send();
 
 }
 </script>
