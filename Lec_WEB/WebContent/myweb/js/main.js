@@ -6,6 +6,8 @@ $(function () {
     $('.close').click(function (e) {
         e.preventDefault();
         $('.modal').removeClass('active');
+        $(".form-control").removeClass("error");
+        $(".form-control").next().slideUp(100);
     });
 
     var slides = $('.carousel').carousel();
@@ -16,6 +18,30 @@ $(function () {
     $('.next').click(function () {
         slides.carousel('next');
     });
+
+    $('.login label').removeClass('active');
+     
+    $('.login input').click(function(){
+        $(this).attr('placeholder','');
+        $(this).siblings('label').addClass('on');
+    });
+            var $button = $(".login_button"),
+            $fields = $(".form-control");
+
+            $button.on("click", function(e) {
+                e.preventDefault();
+            $fields.each(function() {
+                var value = $(this).val();
+                if (value == "") {
+                $(this).addClass("error");
+                $(this).next().slideDown(300);
+                }
+            });
+        });
+        $fields.click(function(){
+            $(this).removeClass("error");
+            $(this).next().slideUp(100);
+        });
 });
 
 //map위치 표현
