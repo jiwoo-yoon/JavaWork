@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LITTLE PASTA</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    <script src="http://malsup.github.com/jquery.cycle2.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js"
+        integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="container">
+            <h1 class="logo"><a href="index.html">Little pasta</a></h1>
+            <ul class="clearfix">
+                <li><a href="#">LITTLE PASTA</a></li>
+                <li><a href="#">MENU</a></li>
+                <li><a href="franchise.html">FRANCHISE</a></li>
+                <li><a href="#">STORE</a></li>
+                <li><a href="#">MEMBERSHIP</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <div class="banner">
+        <ul class="cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-slides=".slide" data-cycle-prev="#prev"
+            data-cycle-next="#next" data-cycle-timeout="5000" data-cycle-pager=".slide-pager">
+
+            <li class="slide1 slide">
+                <div class="contents">
+                    <h2><span>패밀리세트</span><br /> FAMILY SET</h2>
+                    <p>업그레이드 된 패밀리세트를 <br /> 할인된 가격으로 만나보세요.</p>
+                </div>
+            </li>
+
+            <li class="slide2 slide">
+                <div class="contents">
+                    <h2><span>런치세트</span><br /> LUNCH SET</h2>
+                    <p>더욱 다양한 메뉴의 런치세트를 <br /> <em>오후 5시</em>까지 풀코스로 즐기세요.</p>
+                </div>
+            </li>
+
+            <li class="slide3 slide">
+                <div class="contents">
+                    <h2><span>오늘의 메뉴</span><br /> TODAY'S MENU</h2>
+                    <p>새로워진 오늘의 메뉴를<br />더욱 저렴하게 만나보세요.</p>
+                </div>
+            </li>
+
+        </ul>
+
+        <!--//slideshow -->
+        <p class="slide-pager"></p>
+
+    </div>
+    <!--//banner -->
+
+    <div class="main_content container">
+        <section class="container">
+            <h2><em>LITTLE PASTA</em>'s <br /> FAVORITE FOOD</h2>
+            <ul class="carousel">
+                <li class="carousel-item"><a href=""><img src="images/favorite_food1.jpg" alt="favorite_food1"></a></li>
+                <li class="carousel-item"><a href=""><img src="images/favorite_food2.jpg" alt="favorite_food1"></a></li>
+                <li class="carousel-item"><a href=""><img src="images/favorite_food3.jpg" alt="favorite_food1"></a></li>
+                <li class="carousel-item"><a href=""><img src="images/favorite_food4.jpg" alt="favorite_food1"></a></li>
+                <li class="carousel-item"><a href=""><img src="images/favorite_food5.jpg" alt="favorite_food1"></a></li>
+            </ul>
+            <div class="controls">
+                <i class="material-icons prev">arrow_back</i>
+                <i class="material-icons next">arrow_forward</i>
+            </div>
+        </section>
+
+        <section>
+            <h2><em>LITTLE PASTA</em>'s <br /> HOT LINK</h2>
+            <ul class="hot_link">
+                <li class="gift">
+                    <a href="">
+                        <h3>GIFT CARD</h3>
+                        <p>기프트카드 &amp; 상품권</p>
+                        <img src="images/giftcard_icon.svg" alt="gift card">
+                    </a>
+                </li>
+
+                <li class="reserve">
+                    <div>
+                        <a href="">
+                            <h3>RESERVE</h3>
+                            <p>예약하기</p>
+                            <img src="images/reserve_icon.svg" alt="reserve">
+                        </a>
+
+                </li>
+
+                <li class="point">
+                    <a href="#">
+                        <h3>SAVE POINT</h3>
+                        <p>포인트 적립</p>
+                        <img src="images/point_icon.svg" alt="point">
+                    </a>
+                </li>
+            </ul>
+        </section>
+        
+        <div class="modal" id="reserve">
+
+            <form class="login" action="">
+                <h3>Login</h3>
+                
+                <div class="input-group">
+                    <label for="userid">아이디</label>
+                    <input id="userid" name="userid" value="" type="text" placeholder="아이디 입력" class="form-control"
+                        required>
+                    <div class="validation">아이디를 입력해주세요.</div>
+                </div>
+                <div class="input-group">
+                    <label for="userpw">비밀번호</label>
+                    <input id="userpw" name="userpw" value="" type="password" placeholder="비밀번호 입력" class="form-control"
+                        required>
+                    <div class="validation">비밀번호를 입력해주세요.</div>
+                </div>
+                <button class="login_button">login</button>
+
+
+                <a href="" class="close">Close</a>
+            </form>
+        </div>
+
+        <section>
+            <h2><em>LITTLE PASTA</em>'s <br /> FRANCHISE</h2>
+            <ul class="franchise">
+                <li>
+                    <div class="desc">
+                        <h3>홍보</h3>
+                        <p>지속적인 브랜드 홍보를 통해 브랜드 이미지 상승</p>
+                    </div>
+                    <img src="images/franchise1.jpg" alt="홍보">
+                </li>
+
+                <li>
+                    <div class="desc">
+                        <h3>교육</h3>
+                        <p>1등급호텔 특급 주방장 출신 요리사의 레시피 전수</p>
+                    </div>
+                    <img src="images/franchise2.jpg" alt="교육">
+                </li>
+
+                <li>
+                    <div class="desc">
+                        <h3>사후관리</h3>
+                        <p>꾸준한 메뉴개발을 통해 고객만족 실현과 지속적인 관리</p>
+                    </div>
+                    <img src="images/franchise3.jpg" alt="사후관리">
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2><em>LITTLE PASTA</em>'s <br /> INFO</h2>
+            <div class="location">
+                <div class="info">
+                    <div class="number">
+                        <h3>문의전화</h3>
+                        <p>1544 - 4987</p>
+
+                    </div>
+                    <div class="description">
+                        <h3>전국매장안내</h3>
+                        <p>
+                            전국매장 위치, 서비스,상세정보 등 자세하게 확인하세요
+                        </p>
+                    </div>
+                </div> <!-- //info -->
+
+                <div class="map">
+                    <div id="map" style="width:100%;height:350px;"></div>
+                    <script
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpXCUpAbetxI0sTqAX8IgAJ3UG8zGLn2E&callback=initMap"
+                        async defer>
+                        </script>
+                </div> <!-- //map -->
+            </div> <!-- //location -->
+        </section>
+    </div> <!-- //main_content container -->
+
+    <footer>
+        <address>
+            <p>업체명 : 리틀파스타 전화 : 1544-4987 사업자번호 : 217-81-34844</p>
+            <p>대표자 : 김왕석&copy; 2018-2019 리틀파스타. Proudly created with Dubuplus.com</p>
+        </address>
+
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
