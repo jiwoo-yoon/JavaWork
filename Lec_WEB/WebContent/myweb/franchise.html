@@ -6,14 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>LITTLE PASTA</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
     <link rel="stylesheet" href="css/style.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
     <script src="http://malsup.github.com/jquery.cycle2.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
     <link rel="manifest" href="images/favicon/manifest.json">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.css">
 </head>
 
 <body>
+    <header class="main-header">
+        <nav class="container">
+            <h1 class="logo"><a href="index.html" style="transform: translateY(-30px);">Little pasta</a></h1>
+            <ul class="clearfix">
+                <li><a href="index.html">LITTLE PASTA</a></li>
+                <li><a href="#">MENU</a></li>
+                <li><a href="franchise.html">FRANCHISE</a></li>
+                <li><a href="#">STORE</a></li>
+                <li><a href="#">MEMBERSHIP</a></li>
+            </ul>
+        </nav>
+
+    </header>
 
     <div class="banner">
         <ul>           
@@ -31,12 +65,11 @@
     <section>
         <h2><em>LITTLE PASTA</em>'s <br /> FRANCHISE</h2>
         
-            <form action="#" method="post">
+            <form action="#">
                 <h3>작성중 궁금하신 점이 있으시면 문의주세요.</h3>
                 <div class="trans">
                     <div class="memo">
-                        <textarea name="question" cols="50" rows="8" placeholder="내용을 작성해주세요."></textarea>
-                                
+                        <textarea name="question" cols="50" rows="8" placeholder="내용을 작성해주세요."></textarea>                          
                     </div>  
                     <div class="user_info">
                         <label for="username">이름</label>
@@ -45,15 +78,14 @@
                         <input type="email" id="useremail" placeholder="이메일 주소">
                         <label for="phonenumber">핸드폰번호</label>
                         <input type="tel" id="phonenumber" placeholder="핸드폰 번호">
-                        <input type="button" value="submit">
-                    </div>
-                        
+                        <button class="btn waves-effect waves-light" type="submit" name="action">Submit</button>
+                    </div>                        
                 </div>
             </form>
         
     </section>
     </div> <!-- //main_content container -->
-        
+
     <footer>
         <address>
             <p>업체명 :  리틀파스타 전화 : 1544-4987   사업자번호 : 217-81-34844</p>
