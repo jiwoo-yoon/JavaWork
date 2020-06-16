@@ -23,7 +23,7 @@ CREATE TABLE test_write
 CREATE SEQUENCE TEST_WRITE_SEQ;
 
 --생성확인
-SELECT * FROM test_write;
+SELECT * FROM test_write ORDER BY wr_uid DESC;
 
 -- 기본데이터 작성
 INSERT INTO TEST_WRITE VALUES
@@ -39,6 +39,7 @@ INSERT INTO TEST_WRITE VALUES
 
 --다량의 데이터 필요
 SELECT * FROM test_write ORDER BY wr_uid DESC;
+
 INSERT INTO test_write(wr_uid, wr_subject, wr_content, wr_name)
 	SELECT test_write_seq.nextval, wr_subject, wr_content, wr_name FROM test_write;
 
