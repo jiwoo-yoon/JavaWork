@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+select{
+	width : 300px;
+	margin : 5px;
+	padding : 5px;
+	text-align-last : center;
+	text-indent: 5px;
+}
