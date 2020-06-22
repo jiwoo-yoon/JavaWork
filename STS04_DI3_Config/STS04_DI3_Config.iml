@@ -10,7 +10,20 @@
   </component>
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
-      <configuration />
+      <configuration>
+        <fileset id="fileset" name="AppCtx01_B" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/appCtx01_B.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/appCtx01_A.xml</file>
+        </fileset>
+        <fileset id="fileset2" name="AppCtx03" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/appCtx03.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/appCtx01_A.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/appCtx01_B.xml</file>
+        </fileset>
+        <fileset id="fileset3" name="AppCtx04" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/appCtx04.xml</file>
+        </fileset>
+      </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
@@ -23,7 +36,8 @@
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="J2SE-1.5" jdkType="JavaSDK" />
+    <orderEntry type="library" name="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER" level="application" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.2.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.2.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.2.7.RELEASE" level="project" />

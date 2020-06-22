@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="STS10_Request:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>STS10_Request</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="sts10_request-1.0.0-BUILD-SNAPSHOT.war">
+      <element id="artifact" artifact-name="STS10_Request:war exploded" />
+    </root>
+  </artifact>
+</component>
