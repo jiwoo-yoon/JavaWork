@@ -1,6 +1,5 @@
 package com.lec.spring.aop02;
 
-import com.lec.spring.aop01.MyService11;
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.GenericXmlApplicationContext;
 

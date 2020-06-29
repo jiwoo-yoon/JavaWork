@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="STS12_Validation:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>STS12_Validation</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="sts12_validation-1.0.0-BUILD-SNAPSHOT.war">
+      <element id="artifact" artifact-name="STS12_Validation:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="STS09_MVC:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c81e2782-6dcd-47c9-96ca-a24bba7ec1d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../STS01_HelloSpring/src/main/resources/hi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS02_DI1_bean/.idea/artifacts/STS02_DI1_bean_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS02_DI1_bean/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS02_DI1_bean/.idea/libraries/Maven__javax_servlet_jstl_unknown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS02_DI1_bean/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_unknown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS02_DI1_bean/.idea/libraries/Spring_MVC_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS02_DI1_bean/.idea/libraries/Spring_Web_Services_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS02_DI1_bean/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS02_DI1_bean/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS02_DI1_bean/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS02_DI1_bean/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS02_DI1_bean/web/op.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/artifacts/STS03_DI2_Autowired_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/libraries/Maven__ch_qos_logback_logback_core_1_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/libraries/Maven__org_hibernate_hibernate_core_4_2_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_2_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/libraries/Maven__org_javassist_javassist_3_15_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_1_spec_1_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/libraries/Maven__org_springframework_spring_aop_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/libraries/Maven__org_springframework_spring_beans_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/libraries/Maven__org_springframework_spring_context_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/libraries/Maven__org_springframework_spring_core_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/libraries/Maven__org_springframework_spring_expression_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/libraries/Maven__org_springframework_spring_test_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/libraries/Maven__org_springframework_spring_tx_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/STS03_DI2_Autowired.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/src/main/java/com/lec/beans/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/src/main/java/com/lec/beans/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/src/main/java/com/lec/spring/autowired1/AutowireMain01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/src/main/java/com/lec/spring/autowired2/AutowiredMain02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/src/main/java/ex3_1/DIApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/src/main/java/ex3_1/MinusOp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/src/main/java/ex3_1/Operand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/src/main/java/ex3_1/OperatorBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/src/main/java/ex3_1/PlusOp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/src/main/resources/autowiredCtx1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/src/main/resources/autowiredCtx2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS04_DI3_Config/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS04_DI3_Config/src/main/java/com/lec/beans/Score.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS04_DI3_Config/src/main/java/com/lec/beans/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS04_DI3_Config/src/main/java/com/lec/spring/config01/ConfigMain01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS04_DI3_Config/src/main/java/com/lec/spring/config02/AppConfig02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS04_DI3_Config/src/main/java/com/lec/spring/config02/ConfigMain02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS04_DI3_Config/src/main/java/com/lec/spring/config03/AppConfig03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS04_DI3_Config/src/main/java/com/lec/spring/config03/ConfigMain03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS04_DI3_Config/src/main/java/com/lec/spring/config04/AppConfig04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS04_DI3_Config/src/main/java/com/lec/spring/config04/ConfigMain04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS04_DI3_Config/src/main/resources/appCtx01_A.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS04_DI3_Config/src/main/resources/appCtx01_B.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS04_DI3_Config/src/main/resources/appCtx03.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS04_DI3_Config/src/main/resources/appCtx04.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/.idea/libraries/Maven__ch_qos_logback_logback_core_1_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/.idea/libraries/Maven__org_hibernate_hibernate_core_4_2_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_2_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/.idea/libraries/Maven__org_javassist_javassist_3_15_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_1_spec_1_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/.idea/libraries/Maven__org_springframework_spring_aop_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/.idea/libraries/Maven__org_springframework_spring_beans_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/.idea/libraries/Maven__org_springframework_spring_context_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/.idea/libraries/Maven__org_springframework_spring_core_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/.idea/libraries/Maven__org_springframework_spring_expression_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/.idea/libraries/Maven__org_springframework_spring_test_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/.idea/libraries/Maven__org_springframework_spring_tx_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/STS05_LifeCycle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/src/main/java/com/lec/beans/Score.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/src/main/java/com/lec/beans/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/src/main/java/com/lec/spring/lifecycle01/LifeCycleMain01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/src/main/java/com/lec/spring/scope/ScopeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/src/main/resources/appCtx01_A.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/src/main/resources/appCtx01_B.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS05_LifeCycle/src/main/resources/appCtx02.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/libraries/Maven__ch_qos_logback_logback_core_1_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/libraries/Maven__org_hibernate_hibernate_core_4_2_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_2_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/libraries/Maven__org_javassist_javassist_3_15_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_1_spec_1_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/libraries/Maven__org_springframework_spring_aop_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/libraries/Maven__org_springframework_spring_beans_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/libraries/Maven__org_springframework_spring_context_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/libraries/Maven__org_springframework_spring_core_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/libraries/Maven__org_springframework_spring_expression_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/libraries/Maven__org_springframework_spring_test_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/libraries/Maven__org_springframework_spring_tx_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/STS06_DI_Config2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/src/main/java/com/lec/spring/environment/AdminConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/src/main/java/com/lec/spring/environment/EnvMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/src/main/java/com/lec/spring/profile4/xml/ProfileMain4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/src/main/java/com/lec/spring/profile4/xml/ServiceInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/src/main/java/com/lec/spring/property2/xml/DBConn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/src/main/java/com/lec/spring/property2/xml/PropertyMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/src/main/java/com/lec/spring/property3/java/DBConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/src/main/java/com/lec/spring/property3/java/PropertyMain3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/src/main/resources/admin.auth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/src/main/resources/appCtx1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/src/main/resources/appCtx2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/src/main/resources/appCtx4_dev.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/src/main/resources/appCtx4_run.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS06_PropertySource/src/main/resources/db.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/libraries/Maven__ch_qos_logback_logback_core_1_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/libraries/Maven__org_aspectj_aspectjrt_1_6_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/libraries/Maven__org_hibernate_hibernate_core_4_2_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_2_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/libraries/Maven__org_javassist_javassist_3_15_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_1_spec_1_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/libraries/Maven__org_springframework_spring_aop_3_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/libraries/Maven__org_springframework_spring_beans_3_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/libraries/Maven__org_springframework_spring_context_3_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/libraries/Maven__org_springframework_spring_context_support_3_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/libraries/Maven__org_springframework_spring_core_3_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/libraries/Maven__org_springframework_spring_expression_3_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/libraries/Maven__org_springframework_spring_test_3_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/libraries/Maven__org_springframework_spring_tx_3_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/STS07_AOP1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/src/main/java/com/lec/spring/aop01/MyService11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/src/main/java/com/lec/spring/aop01/MyService12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/src/main/java/com/lec/spring/aop02/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/src/main/java/com/lec/spring/aop02/MyService21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/src/main/java/com/lec/spring/aop02/MyService22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/src/main/java/com/lec/spring/aop03/LogAspect3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/src/main/java/com/lec/spring/aop03/MyServiceEx31.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/src/main/java/com/lec/spring/aop03/MyServiceEx32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/src/main/resources/aopCtx1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/src/main/resources/aopCtx2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS07_AOP1/src/main/resources/aopCtx3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/libraries/Maven__ch_qos_logback_logback_core_1_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/libraries/Maven__org_aspectj_aspectjrt_1_6_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/libraries/Maven__org_hibernate_hibernate_core_4_2_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_2_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/libraries/Maven__org_javassist_javassist_3_15_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_1_spec_1_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/libraries/Maven__org_springframework_spring_aop_3_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/libraries/Maven__org_springframework_spring_beans_3_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/libraries/Maven__org_springframework_spring_context_3_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/libraries/Maven__org_springframework_spring_context_support_3_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/libraries/Maven__org_springframework_spring_core_3_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/libraries/Maven__org_springframework_spring_expression_3_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/libraries/Maven__org_springframework_spring_test_3_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/libraries/Maven__org_springframework_spring_tx_3_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/STS08_AOP2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/src/main/java/com/lec/beans/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/src/main/java/com/lec/beans/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/src/main/java/com/lec/beans/ServiceEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/src/main/java/com/lec/spring/aop01/AopMain01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/src/main/java/com/lec/spring/aop01/MyService11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/src/main/java/com/lec/spring/aop01/MyService12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/src/main/java/com/lec/spring/aop02/AopMain02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/src/main/java/com/lec/spring/aop02/MyService21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/src/main/java/com/lec/spring/aop02/MyService22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/src/main/java/com/lec/spring/aop03/AopMain03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/src/main/java/com/lec/spring/aop03/MyServiceEx31.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/src/main/java/com/lec/spring/aop03/MyServiceEx32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/src/main/resources/aopCtx1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/src/main/resources/aopCtx2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS08_AOP2/src/main/resources/aopCtx3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/STS09_MVC_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/STS09_MVC_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_6_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_6_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_asm_3_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_3_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_3_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_3_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STS09_MVC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lec/sts09_mvc/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS10_Request/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS10_Request/src/main/java/com/lec/sts10_request/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS10_Request/src/main/java/com/lec/sts10_request/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS10_Request/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS10_Request/src/main/webapp/CSS/sts_common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS10_Request/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS10_Request/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS10_Request/src/main/webapp/WEB-INF/views/comn.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS10_Request/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS10_Request/src/main/webapp/WEB-INF/views/member/doMember.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS10_Request/src/main/webapp/WEB-INF/views/member/find.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS10_Request/src/main/webapp/WEB-INF/views/member/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS10_Request/src/main/webapp/WEB-INF/views/member/load.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS10_Request/src/main/webapp/WEB-INF/views/member/save.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS10_Request/src/main/webapp/WEB-INF/views/member/search.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS10_Request/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS10_Request/src/test/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS10_Request/target/classes/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS10_Request/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS10_Request/target/m2e-wtp/web-resources/META-INF/maven/com.lec/sts10_request/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS10_Request/target/m2e-wtp/web-resources/META-INF/maven/com.lec/sts10_request/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STS10_Request/target/test-classes/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS01_HelloSpring/STS01_HelloSpring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../STS01_HelloSpring/STS01_HelloSpring.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS01_HelloSpring/target/classes/spring/HelloMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS02_DI1_bean/STS02_DI1_bean.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../STS02_DI1_bean/STS02_DI1_bean.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS02_DI1_bean/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../STS02_DI1_bean/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS03_DI2_Autowired/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS03_DI2_Autowired/target/classes/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../STS03_DI2_Autowired/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS03_DI2_Autowired/target/classes/META-INF/maven/org.springframework.samples/STS03_DI2_Autowired/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS03_DI2_Autowired/target/classes/META-INF/maven/org.springframework.samples/STS03_DI2_Autowired/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS04_DI3_Config/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS04_DI3_Config/STS04_DI3_Config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../STS04_DI3_Config/STS04_DI3_Config.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS04_DI3_Config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../STS04_DI3_Config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS04_DI3_Config/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS04_DI3_Config/target/classes/META-INF/maven/org.springframework.samples/STS04_DI3_Config/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS04_DI3_Config/target/classes/META-INF/maven/org.springframework.samples/STS04_DI3_Config/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS05_LifeCycle/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../STS05_LifeCycle/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS05_LifeCycle/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS05_LifeCycle/target/classes/META-INF/maven/org.springframework.samples/STS05_LifeCycle/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS05_LifeCycle/target/classes/META-INF/maven/org.springframework.samples/STS05_LifeCycle/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS06_PropertySource/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../STS06_PropertySource/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS06_PropertySource/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS06_PropertySource/target/classes/META-INF/maven/org.springframework.samples/STS06_DI_Config2/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS06_PropertySource/target/classes/META-INF/maven/org.springframework.samples/STS06_DI_Config2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS07_AOP1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../STS07_AOP1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS07_AOP1/src/main/java/com/lec/spring/aop01/AopMain01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../STS07_AOP1/src/main/java/com/lec/spring/aop01/AopMain01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS07_AOP1/src/main/java/com/lec/spring/aop02/AopMain02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../STS07_AOP1/src/main/java/com/lec/spring/aop02/AopMain02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS07_AOP1/src/main/java/com/lec/spring/aop03/AopMain03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../STS07_AOP1/src/main/java/com/lec/spring/aop03/AopMain03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS07_AOP1/src/main/java/com/lec/spring/beans/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../STS07_AOP1/src/main/java/com/lec/spring/beans/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS07_AOP1/src/main/java/com/lec/spring/beans/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/../STS07_AOP1/src/main/java/com/lec/spring/beans/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS07_AOP1/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS07_AOP1/target/classes/META-INF/maven/org.springframework.samples/STS07_AOP/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS07_AOP1/target/classes/META-INF/maven/org.springframework.samples/STS07_AOP/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS08_AOP2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../STS08_AOP2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS08_AOP2/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS08_AOP2/target/classes/META-INF/maven/org.springframework.samples/STS08_AOP2/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STS08_AOP2/target/classes/META-INF/maven/org.springframework.samples/STS08_AOP2/pom.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1dfK1aCSpC2QHA1IjwaNjCJE9gV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowCommit.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.34" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.34" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="STS09_MVC:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_STS09_MVC_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64231" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="STS09_MVC:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c81e2782-6dcd-47c9-96ca-a24bba7ec1d0" name="Default Changelist" comment="" />
+      <created>1592810492396</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592810492396</updated>
+      <workItem from="1592810497833" duration="1421000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="410" y="-914" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592810560575">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="410" y="-914" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1592810560575" />
+    <state x="385" y="-1068" key="CommitChangelistDialog2" timestamp="1592810947176">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="385" y="-1068" key="CommitChangelistDialog2/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1592810947176" />
+    <state x="687" y="-931" key="FileChooserDialogImpl" timestamp="1592812125994">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="687" y="-931" key="FileChooserDialogImpl/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1592812125994" />
+    <state width="1279" height="267" key="GridCell.Tab.0.bottom" timestamp="1592812138857">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1279" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1592812138857" />
+    <state width="1279" height="267" key="GridCell.Tab.0.center" timestamp="1592812138857">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1279" height="267" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1592812138857" />
+    <state width="1279" height="267" key="GridCell.Tab.0.left" timestamp="1592812138857">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1279" height="267" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1592812138857" />
+    <state width="1279" height="267" key="GridCell.Tab.0.right" timestamp="1592812138857">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1279" height="267" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1592812138857" />
+    <state width="1279" height="267" key="GridCell.Tab.1.bottom" timestamp="1592812138858">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1279" height="267" key="GridCell.Tab.1.bottom/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1592812138858" />
+    <state width="1279" height="267" key="GridCell.Tab.1.center" timestamp="1592812138857">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1279" height="267" key="GridCell.Tab.1.center/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1592812138857" />
+    <state width="1279" height="267" key="GridCell.Tab.1.left" timestamp="1592812138857">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1279" height="267" key="GridCell.Tab.1.left/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1592812138857" />
+    <state width="1279" height="267" key="GridCell.Tab.1.right" timestamp="1592812138857">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1279" height="267" key="GridCell.Tab.1.right/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1592812138857" />
+    <state width="1279" height="267" key="GridCell.Tab.2.bottom" timestamp="1592812138858">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1279" height="267" key="GridCell.Tab.2.bottom/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1592812138858" />
+    <state width="1279" height="267" key="GridCell.Tab.2.center" timestamp="1592812138858">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1279" height="267" key="GridCell.Tab.2.center/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1592812138858" />
+    <state width="1279" height="267" key="GridCell.Tab.2.left" timestamp="1592812138858">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1279" height="267" key="GridCell.Tab.2.left/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1592812138858" />
+    <state width="1279" height="267" key="GridCell.Tab.2.right" timestamp="1592812138858">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1279" height="267" key="GridCell.Tab.2.right/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1592812138858" />
+    <state x="551" y="-923" key="NewModule_or_Project.wizard" timestamp="1592812130801">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="551" y="-923" key="NewModule_or_Project.wizard/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1592812130801" />
+    <state x="205" y="-1080" key="new project wizard" timestamp="1592811264144">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="205" y="-1080" key="new project wizard/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1592811264144" />
+  </component>
+</project>
