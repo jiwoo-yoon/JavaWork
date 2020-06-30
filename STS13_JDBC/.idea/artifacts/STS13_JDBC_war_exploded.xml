@@ -1,17 +1,17 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="STS12_Validation:war exploded">
-    <output-path>$PROJECT_DIR$/target/sts12_validation-1.0.0-BUILD-SNAPSHOT</output-path>
+  <artifact type="exploded-war" name="STS13_JDBC:war exploded">
+    <output-path>$PROJECT_DIR$/target/sts13_jdbc-1.0.0-BUILD-SNAPSHOT</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
-        <module>STS12_Validation</module>
+        <module>STS13_JDBC</module>
         <packaging>war</packaging>
       </options>
     </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="STS12_Validation" />
+          <element id="module-output" name="STS13_JDBC" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework:spring-context:5.2.1.RELEASE" />
@@ -22,10 +22,6 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:5.2.1.RELEASE" />
-          <element id="library" level="project" name="Maven: org.hibernate.validator:hibernate-validator:6.1.5.Final" />
-          <element id="library" level="project" name="Maven: jakarta.validation:jakarta.validation-api:2.0.2" />
-          <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.3.2.Final" />
-          <element id="library" level="project" name="Maven: com.fasterxml:classmate:1.3.4" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.6.10" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.6" />
           <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.6.6" />
@@ -33,12 +29,21 @@
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.15" />
           <element id="library" level="project" name="Maven: javax.inject:javax.inject:1" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: com.oracle.database.jdbc:ojdbc6:11.2.0.4" />
+          <element id="library" level="project" name="Maven: com.oracle.database.jdbc:ucp:11.2.0.4" />
+          <element id="library" level="project" name="Maven: com.oracle.database.security:oraclepki:11.2.0.4" />
+          <element id="library" level="project" name="Maven: com.oracle.database.security:osdt_cert:11.2.0.4" />
+          <element id="library" level="project" name="Maven: com.oracle.database.security:osdt_core:11.2.0.4" />
+          <element id="library" level="project" name="Maven: com.oracle.database.ha:simplefan:11.2.0.4" />
+          <element id="library" level="project" name="Maven: com.oracle.database.ha:ons:11.2.0.4" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.2.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.2.1.RELEASE" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/sts12_validation-1.0.0-BUILD-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/target/sts13_jdbc-1.0.0-BUILD-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="STS12_Validation/web/Web" />
+      <element id="javaee-facet-resources" facet="STS13_JDBC/web/Web" />
     </root>
   </artifact>
 </component>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="STS13_JDBC:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>STS13_JDBC</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="sts13_jdbc-1.0.0-BUILD-SNAPSHOT.war">
+      <element id="artifact" artifact-name="STS13_JDBC:war exploded" />
+    </root>
+  </artifact>
+</component>
